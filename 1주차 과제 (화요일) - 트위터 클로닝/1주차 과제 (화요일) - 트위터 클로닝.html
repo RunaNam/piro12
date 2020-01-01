@@ -1,0 +1,242 @@
+﻿<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft Visual Studio">
+<TITLE>트위터. 지금 일어나고 있는 일입니다.</TITLE>
+    <style>
+     
+        .right {
+            float: right;
+            width: 50%;
+            overflow: hidden;
+            display: inline-block;
+            font-family: NanumGothic;
+        }
+
+       .user{
+           float:right;
+           margin:30px auto;
+           padding-right:20%;
+           overflow:hidden;
+       }
+        input {
+            height: 40px;
+            margin: 10px 3px;
+            overflow: hidden;
+
+        }
+            input[type="submit"], input[type="passoword"], input[type="text"]{
+                display: inline-block;
+                float: right;
+            }
+        .forgot {
+            float: right;
+            width: 70%;
+            font-size: 0.9em;
+            color: #cccccc;
+            text-decoration: none;
+            overflow: hidden;
+        }
+        input[type="submit"]{
+
+            margin-right:-310px;
+            margin-top:-50px;
+            background-color:white;
+            color:#0094ff;
+            border-radius:50px;
+          
+        }
+
+
+        .Signup{
+            margin: 30% 30%;
+
+        }
+        .signupTitle{font-size:26px; margin-bottom:36px;}
+        .signupSubtitle{font-size:16px;}
+
+
+        .signupButton {
+            width: 370px;
+            height: 30px;
+            line-height: 30px;
+            display: block;
+            text-align: center;
+            background-color: #0094ff;
+            text-decoration: none;
+            color: white;
+            border-radius: 50px;
+        }
+        .LoginButton {
+            width: 370px;
+            height: 30px;
+            line-height: 30px;
+            display: block;
+            text-align: center;
+            background-color: white;
+            text-decoration: none;
+            color: #0094ff;
+            border:1px solid #0094ff;
+            border-radius:50px;
+        }
+
+       .left{
+           float:left;
+           width:50%;
+       }
+
+        .communicationContent {
+            width: 50%;
+            position:absolute;
+            top:30%;
+            height:100%;
+            overflow:hidden;
+        }
+        .communicationItem{
+            margin: 30px;
+           font-size:20px;
+           font-weight:bold;
+           color:white;
+            overflow:hidden;
+        }
+        .bird {
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width:50%;
+            height:95%;
+
+        }
+        .Icon--people, .Icon--reply, .Icon--search{
+            margin-top:-60px;
+            margin-left:20%;
+            margin-right:20px;
+        }
+
+
+        .nev {
+
+            display: block;
+            vertical-align: baseline;
+
+        }
+         ul {
+            width: 100%;
+            border:1px solid #cccccc;
+            overflow:hidden;
+            text-align:center;
+            padding-left:200px;
+            padding-right:200px;
+        }
+        .nev_list .item {
+            overflow:hidden;
+            list-style: none;
+            padding: 10px;
+            float: left;
+            font-size: 0.8em;
+            text-decoration: none ;
+            color: #808080;
+            text-align: center;
+        }
+        ul:nth-child(1) {
+            text-decoration: none;
+            color: #808080;
+        }
+       li:hover {
+            text-decoration:underline;
+                    }
+
+    </style>
+</HEAD>
+<BODY>
+    <div class="right">
+        <div class="user">
+            <div class="Login">
+
+
+                <input type="password" class="text-input" name="session[password]" placeholder="비밀번호" autocomplete="current-password" style="border: 1px solid #cccccc">
+                <input type="text" ; class="textinput"
+                       name="userid" autocomplete="username"
+                       style="border: 1px solid #cccccc"
+                       placeholder="휴대폰 번호, 이메일 주소 또는 사용자 아이디" />
+            </div>
+                <div class="Forgot">
+                    <a class="forgot" href="/account/begin_password_reset" rel="noopener">비밀번호 찾기</a>
+                </div>
+
+                <input type="submit" class="submit" value="로그인" style="border:1px solid #0094ff">
+            
+        </div>
+
+
+        <div class="Signup">
+
+            <img class="twitter" src="https://abs.twimg.com/favicons/favicon.ico" />
+
+            <h1 class="signupTitle">지금 세계 곳곳에서 무슨 일이 일어나고 있는지 확인하세요.</h1>
+
+            <div class="SignupForm">
+                <h2 class="signupSubtitle">지금 트위터에 가입하세요.</h2>
+
+                <div class="StaticLoggedOutHomePage">
+                    <a class="signupButton" href="https://twitter.com/signup">
+                        가입하기
+                    </a>
+                    <br />
+                    <a class="LoginButton" href="/login">
+                        로그인
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="left">
+        <div class="communicationContent">
+            <div class="communicationItem">
+                <span class="Icon--search"></span> 관심사를 팔로우하세요.
+            </div>
+            <img class="Icon--search" src="https://blogfiles.pstatic.net/MjAyMDAxMDJfMjUx/MDAxNTc3ODk3Mzk2OTM3.5GBLUcjG4Vr349nYCK08ugWNd9X5bmqB9n7RiwjoaL4g.NUZtR7A80ZetcfYHUWpR1T_SaIBqqOPBgowuJg9ZWQgg.PNG.nmj5012/search.png" width="30" height="30" alt="search" />
+
+            <div class="communicationItem">
+                <span class="Icon--people"></span> 사람들이 이야기하고 있는 주제에 대해 알아보세요.
+            </div>
+            <img class="Icon--reply" src="https://blogfiles.pstatic.net/MjAyMDAxMDJfMjEx/MDAxNTc3ODk3Mzk2OTM0.Q8Q5dqjfBZtfiSRGBNCFn0QFuX7wpXHb7PlfkKk1ioog.CWR7wkz5QF0MBCelP5u5lbdS4k2D1f-z3hhomWxIgwYg.PNG.nmj5012/people.png" width="30" height="30" alt="reply" />
+
+
+            <div class="communicationItem">
+                <span class="Icon--reply"></span> 대화에 참여하세요.
+            </div>
+            <img class="Icon--people" src="https://blogfiles.pstatic.net/MjAyMDAxMDJfMTg1/MDAxNTc3ODk3Mzk2OTMz.uunaXb2LTe7W9uwqQL15FZ4QVo08U591rwR9OdVsrFog.-GI3tMagXVs4dAXWvc9KSOKHE-UYTISksO7eyXl14cYg.PNG.nmj5012/speech-bubble.png" width="30" height="30" alt="people" />
+
+        </div>
+    </div>
+
+    <div class="nev">
+        <img class="bird" src="https://help.twitter.com/content/dam/help-twitter/big-bird-card.jpeg" />
+        <ul class="nev_list">
+            <li class="item"><a href="/about" rel="noopener">회사소개</a> </li>
+            <li class="item"><a href="//support.twitter.com" rel="noopener">고객센터</a></li>
+            <li class="item"><a href="https://blog.twitter.com/korea" rel="noopener">블로그</a></li>
+            <li class="item"><a href="http://status.twitter.com" rel="noopener">시스템 현황</a></li>
+            <li class="item"><a href="https://about.twitter.com/careers" rel="noopener">인재채용</a></li>
+            <li class="item"><a href="/tos" rel="noopener">이용약관</a></li>
+            <li class="item"><a href="/privacy" rel="noopener">개인정보 처리방침</a></li>
+            <li class="item"><a href="//support.twitter.com/articles/20170514" rel="noopener">쿠키</a></li>
+            <li class="item"><a href="//business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html" rel="noopener">광고 정보</a></li>
+            <li class="item"><a href="//about.twitter.com/press/brand-assets" rel="noopener">브랜드</a></li>
+            <li class="item"><a href="https://about.twitter.com/products" rel="noopener">애플리케이션</a></li>
+            <li class="item"><a href="//ads.twitter.com/?ref=gl-tw-tw-twitter-advertise" rel="noopener">광고</a></li>
+            <li class="item"><a href="https://marketing.twitter.com" rel="noopener">마케팅</a></li>
+            <li class="item"><a href="https://business.twitter.com" rel="noopener">비즈니스</a></li>
+            <li class="item"><a href="//dev.twitter.com" rel="noopener">개발자</a></li>
+            <li class="item"><a href="/i/directory/profiles" rel="noopener">디렉토리</a></li>
+            <li class="item"><a href="/settings/personalization" rel="noopener">설정</a></li>
+            <li class="item StreamsFooter-copyright">&copy; 2020 Twitter</li>
+        </ul>
+    </div>
+
+
+</BODY>
+</HTML>
